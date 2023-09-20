@@ -38,8 +38,9 @@ You can install most of these dependencies using `pip`.
 # Navigate to the project directory:
 cd django-psychological-chatbot
 
-# Set your OpenAI API key as an environment variable. Replace "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" with your actual API key.
-export OPENAI_API_KEY="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"
+# Set your OpenAI API key as an environment variable. 
+Replace "api_key" with your actual API key.
+export OPENAI_API_KEY="your_api_key"
 
 # Run the Django development server:
 python manage.py runserver

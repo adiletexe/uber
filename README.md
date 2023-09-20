@@ -1,4 +1,4 @@
-# Django Chatbot Project
+# Uber driver Assistant for talking with customers, who have disorders
 
 This README file provides a detailed explanation of a Django project for a chatbot that facilitates communication between taxi drivers and customers with psychological disorders. The chatbot leverages advanced Natural Language Processing (NLP) techniques to provide unique advice as a professional psychologist based on given extracted parts of a psychological document and user questions.
 

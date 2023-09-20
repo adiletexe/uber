@@ -34,7 +34,7 @@ You can install most of these dependencies using `pip`.
    ```shell
    git clone <repository_url>
 
-```shell
+
 # Navigate to the project directory:
 cd django-psychological-chatbot
 
@@ -45,7 +45,6 @@ export OPENAI_API_KEY="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"
 python manage.py runserver
 
 
-```shell
 # The server will start, and you can access the chatbot interface at http://localhost:8000.
 
 ## Project Structure
@@ -62,18 +61,15 @@ The project structure is organized as follows:
 ### API Endpoint
 The chatbot is accessible via a RESTful API. You can interact with it by sending POST requests to the following endpoint:
 
-```bash
 # POST /api/chatbot/
 ## Request Parameters
 - `email`: User's email address.
 - `user_input`: User's input text (question or message).
 
 ## Example Request
-```shell
 curl -X POST -H "Content-Type: application/json" -d '{"email": "user@example.com", "user_input": "I need advice on managing stress."}' http://localhost:8000/api/chatbot/
 
 ## Example Response
-```json
 {
     "response": "Chatbot response goes here."
 }

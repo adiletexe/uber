@@ -35,6 +35,7 @@ requests==2.31.0
 SQLAlchemy==2.0.19
 sqlparse==0.4.4
 tenacity==8.2.2
+tiktoken==0.5.1
 tqdm==4.65.0
 typing-extensions==4.7.1
 typing-inspect==0.9.0

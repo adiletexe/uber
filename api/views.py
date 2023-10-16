@@ -11,8 +11,6 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
 
-os.environ['OPENAI_API_KEY'] = "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"
-
 # location of the pdf file/files.
 doc_reader = PdfReader('content/agrimotrainpdf.pdf')
 
